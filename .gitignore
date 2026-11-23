@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Private configuration / runtime output
+.env
+.env.*
+!.env.example
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.dump
+*.backup
+*.bak
+*.key
+*.pem
+*.p12
+*.pfx
+*.ovpn
+*.jsonl
+*-backup*.json
+inbounds-*.json
+xui-local-backups/
+backups/
+logs/
+private/
+secrets/
+
+# Operating systems and editors
+.DS_Store
+.idea/
+.vscode/
